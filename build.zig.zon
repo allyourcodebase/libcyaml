@@ -1,0 +1,17 @@
+.{
+    .name = "libcyaml",
+    .version = "1.4.2",
+    .dependencies = .{
+        .libyaml = .{
+            .url = "git+https://github.com/allyourcodebase/libyaml.git#c5df95bd6b672b4a384c88d3008c10ae698612b0",
+            .hash = "1220eb87ec3b48381260f42adae860ab2f03578522efa89e3322f0e0d967f24fc844",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "c/test",
+        "c/src",
+    },
+}

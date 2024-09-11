@@ -1,5 +1,5 @@
 name: CI
-on: [push]
+on: [workflow_run]
 jobs:
   linux:
     name: '${{ matrix.os }}: ${{ matrix.compiler.vendor }}'
