@@ -1,6 +1,6 @@
 name: "Static Analysis"
 
-on: [workflow_run]
+on: [push]
 
 jobs:
   codeql:
